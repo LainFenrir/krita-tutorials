@@ -107,7 +107,6 @@ There are many reasons to why I think rendering in krita is a bad idea, but the 
 ## Conclusion
 Although I am teaching how to render in krita, I don't really recommend relying on it to render animations other than showing animation tests or wips.
 
-Krita is an amazing software but it has its limitations. I believe krita is amazing for animations in a traditional sense. For an idea of how to work with animation on krita, I suggest looking at Ed tadeo videos.
+Krita is an amazing software but it has its limitations. I believe krita is amazing for animations in a traditional sense. For an idea of how to work with animation on krita, I suggest looking at [Ed tadeo videos](https://www.youtube.com/embed/rnBloU7cYpM).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/rnBloU7cYpM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
