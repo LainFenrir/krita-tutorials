@@ -1,0 +1,1 @@
+# How to import resources in krita
