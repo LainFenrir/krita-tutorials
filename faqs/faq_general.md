@@ -4,12 +4,30 @@ A reminder, krita has its own [Official FAQ](https://docs.krita.org/en/KritaFAQ.
 ## 1. Very general questions
 
 ### How do I update krita? / Does Krita auto update? / Can I update krita from the program?
+Just go to krita website and download the newest version, and install it(no need to uninstall the older version cause the krita installer will handle that).
+Krita doesn't have any sort of auto update or anyway to update the program from itself, you need to download the new version yourself.
+
+The Exceptions to this are the steam and microsoft store versions, however this is more a consequence of the stores auto update when a new version is out. its not any sort of locked feature.
+
+### Is there any difference between the paid versions to the free version?
+Nope, its the exact same program. The paid versions is just a way to give some money to the krita development.
+
+### What is the difference between protable version to the installer?
+None, other than the portable you dont need to install it.
+
+### If I update krita will I lose my drawings and/or my brushes and settings?
+No.
 
 ### How do I share things I made in krita? / How to export images?
+In the menu on the top, go to `File>export` and choose a format, the most common ones are png and jpeg/jpg. I reccomend png over jpeg though, it will keep the quality of your image even if you set the compression to max, jpeg on the other hand...the more compressed worse the quality.
 
 ### Krita lags when i try to paint what to do?
 
 ### I cant draw on the canvas anymore
+This can mean many things usually it's a selection active, just deslect everything.
+
+### How do I deselect something?
+<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>a</kbd>
 
 ### How to import brushes?
 
@@ -23,13 +41,16 @@ That is a Windows related issue.
 ### I try to open my file in krita and it says it cant open it or that its corrupted, How to recover the file?
 
 ### What is the shortcut for ____?
+In the menu on the top, go to `Settings>Configure Krita..` go to `keyboard shortcuts`, It has a search bar that you can look for the action or the shortcut itself.
 
 ### Can I open krita files in other programs? How to pass a krita file to another program keeping the layers?
 
+### Krita keeps crashing when starting
+
+
 ## 2. Tools related Questions
 
-### How do I deselect something?
-Ctrl + Shift + a
+
 
 ### Why I cant undo anymore? I am pressing ctrl+z and its not working. / How to change the limit of undos?
 
@@ -41,9 +62,14 @@ Ctrl + Shift + a
 
 ### How to get rid of white border when using the fill bucket?
 
+
+### How to make a text curve using vectors?
+You can't, the text tools dont allow for you adjust the text like that. You can try converting the text layer to a paint layer and adjust there but honestly, Inkscape would probably be easier for that.
+
 ## 3. Dockers Related questions
 
 ### A docker disappeared how to bring it back?
+In the menu on the top, go to `Settings > dockers` and find the docker you want and jsut click on it.
 
 ### How to move a docker/ how to stack dockers?
 
@@ -78,13 +104,16 @@ No.
 No, use a program like inkscape for that.
 
 ### Can I import photoshop brushes?
-Yes and no.
+Yes and no. Krita only allows to import the brush tip image, not the brush settings. So once you import the brush inside krita, it will be stored as a brush tip.
+For you to be able to use it you will need to select a brush preset in krita and change the brush tip to the tip you imported. For the settings there is no easy way to port a brush from photoshop to krita, you will need to to experiment with the brush engine.
 
 ### Does Krita has a stabilizer/correction function like Paint Tool Sai or Medibang Paint Pro/Fire Alpaca?
-Yes and no.
+Yes and no. Krita offers some smoothing settings for the brush tool, that includes the stabilizer, that is a way to stabilize your stroke.
+It also has the dynamic brush tool that is another brush tool that can be used to stabilize your strokes. 
+However, both work differently from Medibang Paint Pro or Sai, in these programs the line is corrected after you finished it depending on the correction level, krita doesn't do that.
 
 ### Does krita have clipping mask?
-Yes and no.
+Yes and no. Krita has the alpha inheritance, which gives very similar results but its not exactly a clipping mask.
 
 ---
 # Animation FAQ
